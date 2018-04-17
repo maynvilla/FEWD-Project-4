@@ -66,7 +66,7 @@ input::placeholder {
   color: black;
   font-family: 'Allura', cursive;
   opacity: 1;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 
@@ -104,6 +104,13 @@ clearfix::after {
       font-family: 'Allura', cursive;
       font-size: 16px;
     } 
+    
+  input::placeholder {
+      color: black;
+      font-family: 'Allura', cursive;
+      opacity: 1;
+      font-size: 20px;
+    }
       
     #search-images {
         width: 40%;
