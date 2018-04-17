@@ -91,13 +91,14 @@ input {
       transition: all .2s ease-in-out;
       margin: 15px;
     }
-/*  .gallery 
+  .gallery 
       content: '';
       display: table;
       clear: both;
       width: 90%;
       max-width: 1024px;
-    }*/
+      margin: 0 auto;
+    }
         
     #search-images {
         width: 40%;
@@ -106,9 +107,7 @@ input {
       content: "";
       clear: both;
       display: table;
-      width: 90%;
-      max-width: 1024px;
-  }
+        }
    
 }
 
