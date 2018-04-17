@@ -73,7 +73,7 @@ input::placeholder {
 input {
   color: black;
   font-family: 'Allura', cursive;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 clearfix::after {
@@ -99,7 +99,12 @@ clearfix::after {
       width: 90%;
       max-width: 1024px;
     }
-        }
+    input {
+      color: black;
+      font-family: 'Allura', cursive;
+      font-size: 16px;
+    } 
+      
     #search-images {
         width: 40%;
     }
