@@ -93,10 +93,14 @@ clearfix::after {
       margin: 15px;
     }
     .gallery {
-        width:50%;
-        margin: 0 auto;
+      content: '';
+      display: table;
+      clear: both;
+      width: 90%;
+      max-width: 1024px;
+    }
         }
-#search-images {
-  width: 40%;
-}
+    #search-images {
+        width: 40%;
+    }
 }
