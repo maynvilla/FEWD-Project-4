@@ -24,6 +24,7 @@ p {
 
 /* gallery */
 .gallery {
+    width: 100%;
     margin: 0 auto;
 }
 .gallery img {
@@ -40,7 +41,7 @@ p {
 }
 .gallery img:hover {
   opacity: 1;
-  transform: rotate(2deg) scale(1);
+  transform: rotate(1deg) scale(1);
   border: 1px solid pink;
   box-shadow: 0 0 7px rgba(0, 0, 0, .5)
 }
