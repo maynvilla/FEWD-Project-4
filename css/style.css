@@ -103,11 +103,7 @@ input {
     #search-images {
         width: 40%;
     }
-   .clearfix::after {
-      content: "";
-      clear: both;
-      display: table;
-        }
+   
    
 }
 
